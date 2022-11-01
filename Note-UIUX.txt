@@ -1,0 +1,32 @@
+UI/UX
+- Detailed Conceptual of the UI/UX of the entire platform, which obviously include the "citizens' voice".
+
+Complete Idea
+- News Feed with different sections of news
+	- Breaking News
+	- Economic News
+	- International News etc.
+- Knowledge Section (awareness/sensitization)
+	- Our constitution
+	- Our history
+	- Our government structure, hierarchy
+	- Our public office holders
+	- Our government agencies
+	- Our political parties
+	- Our political Timelines
+	- List of all polling unit in the country
+- Profile of Public Office Holders
+	- Autobiography
+	- Political Affiliations
+	- Achievement and Personal engagements
+	- Online Polling/Rating records
+	- Political History
+- Social Media section: strictly to rally groups of voters during elections to eliminate fear of election violence
+	- Becomes active during election periods and inactive afterwards.
+- Citizen's Voice
+	- A dashboard display of citizen's sentiments on various topics and personalities.
+- Campaign Section
+	- Campaign profile
+	- Campaign fund Raisers
+- User Profile
+	- Personalize their content.

@@ -1,0 +1,49 @@
+Reasearch Questions API (Improvement)
+- Outline critical campaign question which will be covered by the API
+	- General Trends
+		- What is most talked about (regardless of area or topic)
+	- Politicians' Reputation (Reasearch Questions about the Candidates/Politicians)
+		- Who is most talked about?
+		- Popularity or notoreity of the most talked about.
+		- Most popular, and most notorious candidates/politician.
+		- How much is a certain candidate being talked about?
+		- What is being said about each candidate?
+		- What is the general sentiment of what is being said?
+	- Citizens' Sentiment (Research Question about the Citizens)
+		- What is the general sentiment of the citizens?
+		- What is most discussed(election and governance related)?
+		- What is the sentiment towards what is being discussed?
+	- Complaint Areas (Research Question about the Citizens Complaints)
+		- What are the various areas of complaints as regards to governance?
+		- What are the levels of sentiment towards the various area of complaints?
+	- These research questions can be narrowed down from national level, to state level, as well as local government level.
+	- These same architecture can be scaled and adjusted to any nation and economy.
+- Answer these question using analytical methods and ML algorithms and make these answers available at endpoints for future analysts.
+
+- Tables will be created to hold this information (precalculated in an automated script), to save response time for the API
+
+
+Dashboard Creation
+- PowerBi connection to the hosted database to visualize the information answered in the research questions section, as well the general data and display this visuals on a dashboard which will be published for non-technical persons.
+
+
+Election Database (Improvement)
+- Email notification after every scheduled database update
+	- Containing
+		- Execution logs
+		- Quantity added, Quantity removed
+		- Prevent data corruption from bots, by removing duplicate tweets.
+
+
+Election Campaign TPL (Improvement)
+- This section will reflect whichever changes made in the API.
+
+
+UI/UX
+- Detailed Conceptual of the UI/UX of the entire platform, which obviously include the "citizens' voice".
+
+
+
+
+
+
