@@ -1,7 +1,7 @@
 UI/UX
 - Detailed Conceptual of the UI/UX of the entire platform, which obviously include the "citizens' voice".
 
-Complete Idea
+Complete Idea.
 - News Feed with different sections of news
 	- Breaking News
 	- Economic News
