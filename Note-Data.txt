@@ -3,6 +3,7 @@ Reasearch Questions API (Improvement)
 	- General Trends
 		- What is most talked about (regardless of area or topic)
 			- Topic Modeller to extract topics
+				- GENSIM
 			- Use extracted topics to label data
 			- Count the most occurent topics
 		- What is the sentiment towards what is being discussed?
@@ -58,10 +59,10 @@ Reasearch Questions API (Improvement)
 - Tables will be created to hold this information (precalculated in an automated script), to save response time for the API
 
 - Step by step Approach
-	- One research area section is selected and build upon for integration and deployment.
+	- One research area section is selected and build upon for integration and deployment. - Done
 		- Dataset will be labelled manually for training.
 		- Each different aspect of our research questions will be label separately for training.
-	- Elaborate explanations are outlined on how to execute the same methods on the different regions, in future phases.
+	- Elaborate explanations are outlined on how to execute the same methods on the different regions, in future phases. - Done
 	- Categories for our manual labelling
 		- Sentiment
 			- Positive
@@ -75,6 +76,8 @@ Reasearch Questions API (Improvement)
 			- Policies
 			- Economic Indicators (e.g. inflation, exchange rate, trade balance)
 			- Unrelated
+	- Use BERT to encode word and sentences, pad for same length, feed into CNN for prediction.
+	- Use GENSIM for Topic Modelling.
 
 
 Dashboard Creation
