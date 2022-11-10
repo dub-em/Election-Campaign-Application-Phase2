@@ -9,12 +9,24 @@ Reasearch Questions API (Improvement)
 			- Filter the dataset by occurent topics as well as sentiment.
 	- Politicians' Reputation (Reasearch Questions about the Candidates/Politicians)
 		- Who is most talked about?
+			- Count using already created list of politicians
 		- What questions are being asked about this candidate?
+			- Try Topic Modeller to extract topics from filtered tweets
+			- Try Getting most common words from tokenized words after removing stop words.
+			- Try getting most common  sentence structure components (NounPhrase, Object etc) from tweets.
 		- Popularity or notoreity of the most talked about.
+			- Sentiment after filtering by most occuring candidate.
 		- Most popular, and most notorious candidates/politician.
+			- Candidate with highest positive sentiment
+			- Candidate with highest negative sentiment
 		- How much is a certain candidate being talked about?
+			- Count after filtering by any candidate.
 		- What is being said about each candidate?
-		- What is the general sentiment of what is being said?
+			- Try Topic Modeller to extract topics from filtered tweets
+			- Try Getting most common words from tokenized words after removing stop words.
+			- Try getting most common  sentence structure components (NounPhrase, Object etc) from tweets.
+		- What is the general sentiment of what is being said about ?
+			- Label each row after filtering by candidate with extracted topics and check sentiment.
 	- Citizens' Sentiment (Research Question about the Citizens)
 		- What is the general sentiment of the citizens?
 			-Count most occurent sentiment
