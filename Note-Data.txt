@@ -57,11 +57,24 @@ Reasearch Questions API (Improvement)
 
 - Tables will be created to hold this information (precalculated in an automated script), to save response time for the API
 
--Step by step Approach
-	-One research area section is selected and build upon for integration and deployment.
-		-Dataset will be labelled manually for training.
-		-Each different aspect of our research questions will be label separately for training.
-	-Elaborate explanations are outlined on how to execute the same methods on the different regions, in future phases.
+- Step by step Approach
+	- One research area section is selected and build upon for integration and deployment.
+		- Dataset will be labelled manually for training.
+		- Each different aspect of our research questions will be label separately for training.
+	- Elaborate explanations are outlined on how to execute the same methods on the different regions, in future phases.
+	- Categories for our manual labelling
+		- Sentiment
+			- Positive
+			- Indifferent
+			- Negative
+		- Discourse Areas
+			- Infrastructure
+			- Education
+			- Health
+			- Security
+			- Policies
+			- Economic Indicators (e.g. inflation, exchange rate, trade balance)
+			- Unrelated
 
 
 Dashboard Creation
