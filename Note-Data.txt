@@ -2,6 +2,11 @@ Reasearch Questions API (Improvement)
 - Outline critical campaign question which will be covered by the API
 	- General Trends
 		- What is most talked about (regardless of area or topic)
+			- Topic Modeller to extract topics
+			- Use extracted topics to label data
+			- Count the most occurent topics
+		- What is the sentiment towards what is being discussed?
+			- Filter the dataset by occurent topics as well as sentiment.
 	- Politicians' Reputation (Reasearch Questions about the Candidates/Politicians)
 		- Who is most talked about?
 		- What questions are being asked about this candidate?
@@ -12,12 +17,28 @@ Reasearch Questions API (Improvement)
 		- What is the general sentiment of what is being said?
 	- Citizens' Sentiment (Research Question about the Citizens)
 		- What is the general sentiment of the citizens?
-		- What is most discussed(election and governance related)?
-		- What is the sentiment towards what is being discussed?
-	- Complaint Areas (Research Question about the Citizens Complaints)
+			-Count most occurent sentiment
+	- Discourse Areas (Research Question about the Citizens Complaints)
 		- What are the various areas of complaints as regards to governance?
-		- What questions are being asked about these areas?
+			Manually labelled categories for tweets.
+			- Infrastructure
+			- Education
+			- Health
+			- Security
+			- Policies
+			- Economic Indicators (e.g. inflation, exchange rate, trade balance)
+			- Unrelated
+		- What is most discussed(election and governance related)?
+			- Count Tweets after filtering by area of discourse.
+		- Specific elements of discussion for the different areas.
+			- Filter by already labelled discourse areas
+			- Tokenize the Dataset
+			- Remove stop words
+			- Use Frequency Distribution to get most common words
+			- Build Word cloud using most common words.
 		- What are the levels of sentiment towards the various area of complaints?
+			- Count Tweets after filtering by both sentiment and area of discourse.
+			
 	- These research questions can be narrowed down from national level, to state level, as well as local government level.
 	- These same architecture can be scaled and adjusted to any nation and economy.
 - Answer these question using analytical methods and ML algorithms and make these answers available at endpoints for future analysts.
