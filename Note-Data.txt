@@ -24,6 +24,12 @@ Reasearch Questions API (Improvement)
 
 - Tables will be created to hold this information (precalculated in an automated script), to save response time for the API
 
+-Step by step Approach
+	-One research area section is selected and build upon for integration and deployment.
+		-Dataset will be labelled manually for training.
+		-Each different aspect of our research questions will be label separately for training.
+	-Elaborate explanations are outlined on how to execute the same methods on the different regions, in future phases.
+
 
 Dashboard Creation
 - PowerBi connection to the hosted database to visualize the information answered in the research questions section, as well the general data and display this visuals on a dashboard which will be published for non-technical persons.
