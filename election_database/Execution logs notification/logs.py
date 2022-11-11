@@ -13,7 +13,7 @@ def logs_schedule():
     import datetime
     import heroku
 
-    os.system("heroku logs -n 20 --app vast-island-32605 >> file.txt")
+    os.system("python get.py >> file.txt")
 
     #heroku logs -n 20 --app vast-island-32605 >> file.txt
 
