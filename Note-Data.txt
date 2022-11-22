@@ -85,13 +85,23 @@ Reasearch Questions API (Improvement)
 	- Predict positive and negative sentiment.
 	- Predict dicourse area
 	- These predicted labels will be attached to the new extracted dataset.
-		-General Trends
+		- General Trends
 			- Use GENSIM for Topic Modelling to extract most popular trends (like first 5), by region (Nigeria first, then the states filtering by location)
 			- Create a General Trends table with columns (Region, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
 				- The rows of the Region columns will be Nigeria, and the 36 states.
 				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by each state using the GENSIM topic modeler.
 				- The rows of sentiment columns will be the count of each of the sentiments.
-		-P 
+
+		- Politician's Reputation
+			-  Use GENSIM to extract the most popular trends, after filtering py politicians name using the filter function for public office holders (Abiye)
+			- Create 37 table (Nigeria and the 36 states)
+			- Each table will have the columns (Public Office Holder, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
+				- The rows of the first column will be the list of public office holders.
+				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by the state corresponding to the table name using the GENSIM topic modeler, after having filter per public office holder.
+				- The rows of sentiment columns will be the count of each of the sentiments, after filtering by public office holder and by state.
+			- Questions like 'most popular or notorious public office holder' will be answered by checking the public office holder with the highest count for positive or negative sentiment.
+
+		-Citizen's Sentiment/Complaint
 
 
 Dashboard Creation
