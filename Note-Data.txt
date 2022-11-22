@@ -76,13 +76,19 @@ Reasearch Questions API (Improvement)
 			- Policies
 			- Economic Indicators (e.g. inflation, exchange rate, trade balance)
 			- Unrelated
-		-Allocation for ranges for manual labelling.
-			-Michael: 0 - 10,000
-			-Abiye: 10:001 - 20,000
-			-Chineye: 20,001 - 30,000
-			-Stephen: 30,001 - 40,000
-	- Use BERT (or custom sentence encoder) to encode word and sentences, pad for same length, feed into CNN for prediction. -Done
-	- Use GENSIM for Topic Modelling.
+		- Allocation for ranges for manual labelling.
+			- Michael: 0 - 10,000
+			- Abiye: 10:001 - 20,000
+			- Chineye: 20,001 - 30,000
+			- Stephen: 30,001 - 40,000
+	- After the new set of data from the database has been cleaned (Abiye), and appended to the old data,
+		-General Trends
+			- Use GENSIM for Topic Modelling to extract most popular trends (like first 5)
+			- Predict positive and negative sentiment.
+			- Predict dicourse area
+			- These predicted labels will be attached to the new extracted dataset.
+			- Create a General Trends table with columns (Region, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
+				- The 
 
 
 Dashboard Creation
