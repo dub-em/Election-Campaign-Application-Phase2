@@ -109,8 +109,9 @@ Reasearch Questions API (Improvement) - Ongoing
 				- The rows of sentiment columns will be the count of each of the sentiments, after applying the respective filters.
 
 		- Methods of Sentiment Analysis
-				- Bag of Words Approach, combined with Naive Bayes, LDA, QDA, Weighted KNN or Deep NN
-				- Word2Vec or My Personal Encoder, combined with EncoderRecurrent Neural Netword/LSTM
+				- Bag of Words Approach, combined with Naive Bayes, LDA, QDA, Weighted KNN or Deep NN - Done
+				- Word2Vec or My Personal Encoder, combined with EncoderRecurrent Neural Netword/LSTM - Ongoing
+				- Save Models using Pickle or another efficient Model Saver - Ongoing
 
 Dashboard Creation
 - PowerBi connection to the hosted database to visualize the information answered in the research questions section, as well the general data and display this visuals on a dashboard which will be published for non-technical persons.
