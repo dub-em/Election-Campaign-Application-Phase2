@@ -81,14 +81,17 @@ Reasearch Questions API (Improvement)
 			- Abiye: 10:001 - 20,000
 			- Chineye: 20,001 - 30,000
 			- Stephen: 30,001 - 40,000
-	- After the new set of data from the database has been cleaned (Abiye), and appended to the old data,
+	- After the new set of data from the database has been cleaned (Abiye), and appended to the old data. This cleaned column o fthe dataset will remove also the tweeter handles in order not to bias the predictive model.
+	- Predict positive and negative sentiment.
+	- Predict dicourse area
+	- These predicted labels will be attached to the new extracted dataset.
 		-General Trends
-			- Use GENSIM for Topic Modelling to extract most popular trends (like first 5)
-			- Predict positive and negative sentiment.
-			- Predict dicourse area
-			- These predicted labels will be attached to the new extracted dataset.
+			- Use GENSIM for Topic Modelling to extract most popular trends (like first 5), by region (Nigeria first, then the states filtering by location)
 			- Create a General Trends table with columns (Region, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
-				- The 
+				- The rows of the Region columns will be Nigeria, and the 36 states.
+				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by each state using the GENSIM topic modeler.
+				- The rows of sentiment columns will be the count of each of the sentiments.
+		-P 
 
 
 Dashboard Creation
