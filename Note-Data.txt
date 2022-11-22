@@ -89,7 +89,7 @@ Dashboard Creation
 - PowerBi connection to the hosted database to visualize the information answered in the research questions section, as well the general data and display this visuals on a dashboard which will be published for non-technical persons.
 
 
-Election Database (Improvement)
+Election Database (Improvement) -Done
 - Email notification after every scheduled database update
 	- Containing
 		- Execution logs
