@@ -93,7 +93,7 @@ Reasearch Questions API (Improvement) - Ongoing
 				- The rows of sentiment columns will be the count of each of the sentiments.
 
 		- Politician's Reputation
-			-  Use GENSIM to extract the most popular trends, after filtering py politicians name using the filter function for public office holders (Abiye)
+			- Use GENSIM to extract the most popular trends, after filtering py politicians name using the filter function for public office holders (Abiye)
 			- Create 37 table (Nigeria and the 36 states)
 			- Each table will have the columns (Public Office Holder, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
 				- The rows of the first column will be the list of public office holders.
