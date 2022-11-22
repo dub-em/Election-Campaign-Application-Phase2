@@ -101,13 +101,16 @@ Reasearch Questions API (Improvement) - Ongoing
 				- The rows of sentiment columns will be the count of each of the sentiments, after filtering by public office holder and by state.
 			- Questions like 'most popular or notorious public office holder' will be answered by checking the public office holder with the highest count for positive or negative sentiment.
 
-		-Citizen's Sentiment/Complaint 
+		- Citizen's Sentiment/Complaint 
 			- Use GENSIM for Topic Modelling to extract most popular trends (like first 5), by region (Nigeria first, then the states filtering by location), after having filtered by each of the categories in our discourse area label.
 			- Create a table for each discourse area with columns (Region, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
 				- The rows of the Region columns will be Nigeria, and the 36 states.
 				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by each discourse area using the GENSIM topic modeler.
 				- The rows of sentiment columns will be the count of each of the sentiments, after applying the respective filters.
 
+		- Methods of Sentiment Analysis
+				- Bag of Words Approach, combined with Naive Bayes, LDA, QDA, Weighted KNN or Deep NN
+				- Word2Vec or My Personal Encoder, combined with EncoderRecurrent Neural Netword/LSTM
 
 Dashboard Creation
 - PowerBi connection to the hosted database to visualize the information answered in the research questions section, as well the general data and display this visuals on a dashboard which will be published for non-technical persons.
