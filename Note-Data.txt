@@ -80,8 +80,10 @@ Reasearch Questions API (Improvement) - Ongoing
 			- Abiye: 10:001 - 20,000
 			- Chineye: 20,001 - 30,000
 			- Stephen: 30,001 - 40,000
+			- Daniel: 40,001 - 50,000
+			- George: 50,001 - 60,000
 
-	- After the new set of data from the database has been cleaned (Abiye), and appended to the old data. This cleaned column of the dataset will remove also the tweeter handles in order not to bias the predictive model.
+	- After the new set of data from the database has been cleaned (Abiye), and appended to the old data. This cleaned column of the dataset will remove also the tweeter handles in order not to bias the predictive model. -Done
 	- Predict positive and negative sentiment.
 	- Predict dicourse area.
 	- These predicted labels will be attached to the new extracted dataset.
