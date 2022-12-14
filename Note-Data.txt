@@ -134,11 +134,22 @@ Election Campaign TPL (Improvement)
 UI/UX - Ongoing
 - Detailed Conceptual of the UI/UX of the entire platform, which obviously include the "citizens' voice".
 
-Note: If this project is scaled up, then deciding the labels and labelling the data will have to be done by professional psychologists.
+Note-Labelling: If this project is scaled up, then deciding the labels and labelling the data will have to be done by professional psychologists.
 	- This is because our interpretation of sentiment as non-professionals in the field of psychology introduces a lot of bias in the interpretation of the sentiment of a certain text, also there is little experience as to how to effectively categorize the various sentiment.
 	- Also a solution needs to be proposed on how to effectively split tweets with different sentiment for different subjects in the same tweet.
 	- Should a text be labeled as positive or neative independent of the context or not?
 
+Note-Sentiment:
+	- A good language analysis has to account to context in sentences.
+	- There are two major kinds of context hidden in sentences.
+			- Context in the sequence of words (Relational Context): This accounts for grammar (language structure)
+				- This can be accounted for by combining any sentence or word encoder with RNN (LSTM), which takes note of word sequences.
+			- Context in the meaning of words (Internal Context): This accounts for meaning of words, therefore is the same sentence is consturcted using synonyms, the meaning can be understood as the same.
+				- This can be accounted for by a combination of different methods.
+				- Using GENSIM word2vec encoder to encode each word in the sentence.
+				- Using PCA to summarize each word to it's principal components.
+				- Replacing each word with their principal values (which then accounts for meaning and similarity)
+	- Combining these two methods of context retention, we can account for both Relational Context and Internal Context.
 
 
 
