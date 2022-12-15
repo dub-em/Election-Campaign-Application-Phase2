@@ -139,6 +139,8 @@ Note-Labelling: If this project is scaled up, then deciding the labels and label
 	- Also a solution needs to be proposed on how to effectively split tweets with different sentiment for different subjects in the same tweet.
 	- Should a text be labeled as positive or neative independent of the context or not?
 
+Note-Topic Modelling: Latent Dirichlet Allocation
+
 Note-Sentiment:
 	- A good language analysis has to account to context in sentences.
 	- There are two major kinds of context hidden in sentences.
