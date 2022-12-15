@@ -140,6 +140,7 @@ Note-Labelling: If this project is scaled up, then deciding the labels and label
 	- Should a text be labeled as positive or neative independent of the context or not?
 
 Note-Topic Modelling: Latent Dirichlet Allocation
+	- All handles will be removed before the topic modelling is done.
 
 Note-Sentiment:
 	- A good language analysis has to account to context in sentences.
