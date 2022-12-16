@@ -153,7 +153,8 @@ Note-Sentiment:
 				- Using PCA to summarize each word to it's principal components.
 				- Replacing each word with their principal values (which then accounts for meaning and similarity)
 	- Combining these two methods of context retention, we can account for both Relational Context and Internal Context.
-
+		- To combine Word2Vec with LSTM (Embedding Layer), I might need to customize my own vocab dictionary.
+		- Further study required.
 
 
 
