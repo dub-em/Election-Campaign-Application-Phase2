@@ -157,6 +157,7 @@ Note-Sentiment:
 		- GENSIM Word2Vec and SimpleRNN are to be experimented with in this project.
 		- To combine Word2Vec with LSTM (Embedding Layer), I might need to customize my own vocab dictionary.
 		- Further study required.
+			-Checkout BERT
 
 
 
