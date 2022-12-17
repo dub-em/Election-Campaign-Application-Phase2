@@ -165,6 +165,7 @@ Note-Sentiment:
 				- Your model could general and specialize at the same time.
 			- This is already accounted for by the combination of RNNs and GENSIM Word2Vec, hence it is simply a different way of achieving same results.
 				- Is it faster or simpler to train and build, this is dependent on result of further experiments.
+			- Both approaches could account for extreme cases of language use like 'Double/Triple Entendere', and still generalize to big data.
 
 
 
