@@ -157,7 +157,14 @@ Note-Sentiment:
 		- GENSIM Word2Vec and SimpleRNN are to be experimented with in this project.
 		- To combine Word2Vec with LSTM (Embedding Layer), I might need to customize my own vocab dictionary.
 		- Further study required.
-			-Checkout BERT
+			- Checkout BERT sentence encoder
+				- This should account synonymous words/sentences.
+				- Synonymous sentences is independent of the sequence of words in the sentence.
+			- This can then account for both the internal and relational context in texts.
+				- If combined with a pretty big enough MLP, can give you both of both worlds
+				- Your model could general and specialize at the same time.
+			- This is already accounted for by the combination of RNNs and GENSIM Word2Vec, hence it is simply a different way of achieving same results.
+				- Is it faster or simpler to train and build, this is dependent on result of further experiments.
 
 
 
