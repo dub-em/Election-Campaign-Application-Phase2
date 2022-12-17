@@ -146,13 +146,15 @@ Note-Sentiment:
 	- A good language analysis has to account to context in sentences.
 	- There are two major kinds of context hidden in sentences.
 			- Context in the sequence of words (Relational Context): This accounts for grammar (language structure)
-				- This can be accounted for by combining any sentence or word encoder with RNN (LSTM), which takes note of word sequences.
+				- This can be accounted for by combining any sentence or word encoder with RNN (SimpleRNN or LSTM), which takes note of word sequences.
 			- Context in the meaning of words (Internal Context): This accounts for meaning of words, therefore is the same sentence is consturcted using synonyms, the meaning can be understood as the same.
 				- This can be accounted for by a combination of different methods.
 				- Using GENSIM word2vec encoder to encode each word in the sentence.
 				- Using PCA to summarize each word to it's principal components.
-				- Replacing each word with their principal values (which then accounts for meaning and similarity)
+				- Or using simple average on each word to keep uniform vector output at all times.
+				- Replacing each word with their principal values or simple average (which then accounts for meaning and similarity)
 	- Combining these two methods of context retention, we can account for both Relational Context and Internal Context.
+		- GENSIM Word2Vec and SimpleRNN are to be experimented with in this project.
 		- To combine Word2Vec with LSTM (Embedding Layer), I might need to customize my own vocab dictionary.
 		- Further study required.
 
