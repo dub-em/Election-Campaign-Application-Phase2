@@ -121,7 +121,7 @@ Election Campaign TPL (Improvement)
 UI/UX - Ongoing
 - Detailed Conceptual of the UI/UX of the entire platform, which obviously include the "citizens' voice".
 
-Important Observation for System Improvement.
+Important Observation for Future System Improvement.
 Note-Labelling: If this project is scaled up, then deciding the labels and labelling the data will have to be done by professional psychologists.
 	- This is because our interpretation of sentiment as non-professionals in the field of psychology introduces a lot of bias in the interpretation of the sentiment of a certain text, also there is little experience as to how to effectively categorize the various sentiment.
 	- Also a solution needs to be proposed on how to effectively split tweets with different sentiment for different subjects in the same tweet.
