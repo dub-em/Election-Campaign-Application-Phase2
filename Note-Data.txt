@@ -60,9 +60,8 @@ Reasearch Questions API (Improvement) - Ongoing
 
 - Step by step Approach
 	- One research area section is selected and build upon for integration and deployment. - Done
-		- Dataset will be labelled manually for training. - Ongoing
 	- Elaborate explanations are outlined on how to execute the same methods on the different regions, in future phases. - Done
-	- Categories for our manual labelling - Ongoing
+	- Categories for our manual labelling - Done
 		- Sentiment
 			- Positive
 			- Indifferent
@@ -75,13 +74,6 @@ Reasearch Questions API (Improvement) - Ongoing
 			- Policies
 			- Economic Indicators (e.g. inflation, exchange rate, trade balance)
 			- Unrelated
-		- Allocation for ranges for manual labelling.
-			- Michael: 0 - 10,000
-			- Abiye: 10:001 - 20,000
-			- Chineye: 20,001 - 30,000
-			- Stephen: 30,001 - 40,000
-			- Daniel: 40,001 - 50,000
-			- George: 50,001 - 60,000
 
 	- After the new set of data from the database has been cleaned (Abiye), and appended to the old data. This cleaned column of the dataset will remove also the tweeter handles in order not to bias the predictive model. -Done
 	- Predict positive and negative sentiment.
@@ -109,11 +101,6 @@ Reasearch Questions API (Improvement) - Ongoing
 				- The rows of the Region columns will be Nigeria, and the 36 states.
 				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by each discourse area using the GENSIM topic modeler.
 				- The rows of sentiment columns will be the count of each of the sentiments, after applying the respective filters.
-
-		- Methods of Sentiment Analysis
-				- Bag of Words Approach, combined with Naive Bayes, LDA, QDA, Weighted KNN or Deep NN - Done
-				- Word2Vec or My Personal Encoder, combined with EncoderRecurrent Neural Netword/LSTM - Ongoing
-				- Save Models using Pickle or another efficient Model Saver - Ongoing
 
 Dashboard Creation
 - PowerBi connection to the hosted database to visualize the information answered in the research questions section, as well the general data and display this visuals on a dashboard which will be published for non-technical persons.
@@ -166,7 +153,3 @@ Note-Sentiment:
 			- This is already accounted for by the combination of RNNs and GENSIM Word2Vec, hence it is simply a different way of achieving same results.
 				- Is it faster or simpler to train and build, this is dependent on result of further experiments.
 			- Both approaches could account for extreme cases of language use like 'Double/Triple Entendere', and still generalize to big data.
-
-
-
-
