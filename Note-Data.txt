@@ -108,6 +108,9 @@ Reasearch Questions API (Improvement) - Ongoing
 				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by each discourse area using the GENSIM topic modeler.
 				- The rows of sentiment columns will be the count of each of the sentiments, after applying the respective filters.
 
+		Main Next Focus
+		- Loading the GENSIM corpus and the saved models from github.
+		
 		First Push
 		- Pull original dataset
 		- Clean, Transform and Predict Labels with Ensemble Model
