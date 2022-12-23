@@ -81,26 +81,51 @@ Reasearch Questions API (Improvement) - Ongoing
 	- These predicted labels will be attached to the new extracted dataset.
 		- General Trends
 			- Use GENSIM for Topic Modelling to extract most popular trends (like first 5), by region (Nigeria first, then the states filtering by location)
-			- Create a General Trends table with columns (Region, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
+			- Create a General Trends table with columns (Region, Topics Ranking (1,2,3,...,10), Most contributing word, second contributing word, third contributing word, fourth contributing word, fifth contributing word).
 				- The rows of the Region columns will be Nigeria, and the 36 states.
-				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by each state using the GENSIM topic modeler.
-				- The rows of sentiment columns will be the count of each of the sentiments.
+				- The rows of the topic ranking columns will be the order of popularity of each topic/trend.
+				- The rows of the most contributing words (etc.) will be the  contributing words extracted by the topic modeller for the entire dataset, and for the filtered dataset by each state using the GENSIM topic modeler.
+				- Each region (e.g Nigeria, Lagos, Rivers etc.) will have 5 allocated rows, for the top 5 trends, and their contributing words.
+				
+				- For sentmient analysis of each state, the cleaned dataset will be filtered by the location using and the sentiment count is taken.
 
 		- Politician's Reputation
 			- Use GENSIM to extract the most popular trends, after filtering py politicians name using the filter function for public office holders (Abiye)
 			- Create 37 table (Nigeria and the 36 states)
 			- Each table will have the columns (Public Office Holder, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
 				- The rows of the first column will be the list of public office holders.
-				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by the state corresponding to the table name using the GENSIM topic modeler, after having filter per public office holder.
-				- The rows of sentiment columns will be the count of each of the sentiments, after filtering by public office holder and by state.
+				- The rows of the topic ranking columns will be the order of popularity of each topic/trend.
+				- The rows of the most contributing words (etc.) will be the  contributing words extracted by the topic modeller for the entire dataset, and for the filtered dataset by each state using the GENSIM topic modeler.
+				- Each politician will have 5 allocated rows, for the top 5 trends, and their contributing words.
+
+				- For sentmient analysis of each politician, the cleaned dataset will be filtered by the said politician using the clean function and the sentiment count is taken.
 			- Questions like 'most popular or notorious public office holder' will be answered by checking the public office holder with the highest count for positive or negative sentiment.
 
-		- Citizen's Sentiment/Complaint 
+		- Citizen's Sentiment/Complaint -(Due to heavily unbalanced extracted data, this section will be suspended till improvement on the type of extracted data is made.)
 			- Use GENSIM for Topic Modelling to extract most popular trends (like first 5), by region (Nigeria first, then the states filtering by location), after having filtered by each of the categories in our discourse area label.
 			- Create a table for each discourse area with columns (Region, Most popular trend, second trend, third trend, positive sentiment count, negative sentiment count).
 				- The rows of the Region columns will be Nigeria, and the 36 states.
 				- The rows of the trends columns will be the topics extracted for the entire dataset, and for the filtered dataset by each discourse area using the GENSIM topic modeler.
 				- The rows of sentiment columns will be the count of each of the sentiments, after applying the respective filters.
+
+		First Push
+		- Pull original dataset
+		- Clean, Transform and Predict Labels with Ensemble Model
+		- Push new cleaned dataset to the database (using df.to_sql())
+		- Pull new cleaned dataset from database
+		- Model topics for General Trend and Politician's Reputation
+		- Push topics dataset to database.
+
+		Subsequent Push
+		- Pull original dataset
+		- Filter by date and retain only most recent date
+		- Clean, Transform and Predict Labels with Ensemble Model
+		- Push new predicted rows to the already existing cleaned dataset
+		- Delete data older than 7 days using the date column.
+		- Pull entire cleaned dataset from database
+		- Model topics for General Trend and Politician's Reputation
+		- Push (add) new trends to the already existing topics dataset in the database
+		- Delete any topics older than seven days using the date column. 
 
 Dashboard Creation
 - PowerBi connection to the hosted database to visualize the information answered in the research questions section, as well the general data and display this visuals on a dashboard which will be published for non-technical persons.
