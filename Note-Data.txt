@@ -110,6 +110,8 @@ Reasearch Questions API (Improvement) - Ongoing
 
 		Main Next Focus
 		- Loading the GENSIM corpus and the saved models from github.
+			-Load Model from Github: https://stackoverflow.com/questions/64097109/load-a-tensorflow-h5-model-hosted-online
+			-Load Corpus:
 		
 		First Push
 		- Pull original dataset
