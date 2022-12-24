@@ -111,7 +111,7 @@ Reasearch Questions API (Improvement) - Ongoing
 		Main Next Focus
 		- Loading the GENSIM corpus and the saved models from github.
 			-Load Model from Github: https://stackoverflow.com/questions/64097109/load-a-tensorflow-h5-model-hosted-online
-			-Load Corpus:
+			-Load Corpus from Kaggle: https://stackoverflow.com/questions/57984502/how-to-access-use-googles-pre-trained-word2vec-model-without-manually-downloadi
 		
 		First Push
 		- Pull original dataset
