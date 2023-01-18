@@ -40,6 +40,9 @@
 		- What is being said about each candidate?
 		- What is the general sentiment of what is being said?
 
+### Article
++ https://www.linkedin.com/pulse/citizens-sentiment-michael-igbomezie
+
 ### Contribution
 This Project is open to contribution and collaboration. Feel free to connect to join the project collaborators.
 
