@@ -112,7 +112,9 @@ Reasearch Questions API (Improvement) - Ongoing
 		- Loading the GENSIM corpus and the saved models from github.
 			-Load Model from Github: https://stackoverflow.com/questions/64097109/load-a-tensorflow-h5-model-hosted-online
 			-Load Corpus from Kaggle: https://stackoverflow.com/questions/57984502/how-to-access-use-googles-pre-trained-word2vec-model-without-manually-downloadi
-		
+		-https://stackoverflow.com/questions/65298241/what-does-this-tensorflow-message-mean-any-side-effect-was-the-installation-su
+		-https://stackoverflow.com/questions/69769139/relative-file-path-is-not-recognized-by-python-in-vscode
+
 		First Push
 		- Pull original dataset
 		- Clean, Transform and Predict Labels with Ensemble Model
