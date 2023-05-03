@@ -40,8 +40,12 @@
 		- What is being said about each candidate?
 		- What is the general sentiment of what is being said?
 
-### Article
+### Articles and Posts
 + https://www.linkedin.com/pulse/citizens-sentiment-michael-igbomezie
++ https://www.linkedin.com/posts/michael-igbomezie-2901a5122_citizens-voice-platform-proof-of-concept-activity-7059369744126099456-MgnX?utm_source=share&utm_medium=member_desktop
+
+### Published Dashboard
++ https://app.powerbi.com/view?r=eyJrIjoiYWMyN2E1YWYtZmQ3NC00YWNlLTg4N2UtOThiZWJiNjQ1MzdjIiwidCI6IjA1Mzg1Yjk4LWE0MTMtNGUzMC04YzhiLTliNDQ5ZTgyMTc3NiJ9
 
 ### Contribution
 This Project is open to contribution and collaboration. Feel free to connect to join the project collaborators.

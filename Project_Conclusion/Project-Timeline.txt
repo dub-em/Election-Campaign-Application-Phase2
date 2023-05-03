@@ -1,0 +1,25 @@
+-AWS RDS Postgres Resource Creation
+-Twitter Data Extraction and Loading
+-Twitter Data Extraction Process Automation (using GitHub Action)
+	-Daily update through email from script.
+-API Development and deployment (using Heroku) to expose data to technical end-users in python or other languages
+-Python TPL Development and deployment (on PyPi) to expose data to technical end-users in Python IDE
+-Script building for Data Cleaning
+-Data Transformation (using Gensim) and Model Training (using TensorFlow)
+-Topic Extraction (using Gensim LDA)
+-Implementation of Trained Model and Topic Extraction (into Scripts) for prediction and information extraction.
+-Dockerization of Scripts into images
+-Hosting Docker images on Digital Ocean app, and deploying with Kubernetes
+-Developing a daily trigger to initiate prediction and send update through email.
+	Two Methods
+	-Using CronJobs (through GitHub Action Workflow)
+	-Integrating task schedule into the source code using Python Schedule Library
+		-Convert the scripts into Docker images.
+		-Create a Digital Ocean Droplet (Ubuntu based)
+		-Connect to droplet locally through ssh
+		-Pull remote docker image into the droplet
+		-Build and run container using image.
+-Connect to AWS RDS instance using PowerBI
+	-Build Dashboard to reflect the daily prediction and topics extracted from the Twitter data
+	-Dashboard updates automatically
+	-Host dashboard on a URL for non-technical end-users.
