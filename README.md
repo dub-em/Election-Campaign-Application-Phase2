@@ -40,6 +40,10 @@
 		- What is being said about each candidate?
 		- What is the general sentiment of what is being said?
 
+
+### Phase 2 Project Flow
+![alt text](https://github.com/dub-em/Election-Campaign-Application-Phase2/blob/main/Project_Conclusion/ProjectFlow/Phase2_ProjectFlow.png?raw=true)
+
 ### Articles and Posts
 + https://www.linkedin.com/pulse/citizens-sentiment-michael-igbomezie
 + https://www.linkedin.com/posts/michael-igbomezie-2901a5122_citizens-voice-platform-proof-of-concept-activity-7059369744126099456-MgnX?utm_source=share&utm_medium=member_desktop
